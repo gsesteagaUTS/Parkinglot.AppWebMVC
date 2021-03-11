@@ -8,6 +8,8 @@ using Microsoft.Extensions.Hosting;
 
 namespace Parkinglot.AppWebMVC
 {
+
+    //comentario de prueba
     public class Startup
     {
         public Startup(IConfiguration configuration)
