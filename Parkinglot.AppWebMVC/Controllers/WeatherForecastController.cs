@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Parkinglot.AppWebMVC.Domain;
 
 namespace Parkinglot.AppWebMVC.Controllers
 {
@@ -21,6 +22,7 @@ namespace Parkinglot.AppWebMVC.Controllers
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
+
         }
 
         [HttpGet]
