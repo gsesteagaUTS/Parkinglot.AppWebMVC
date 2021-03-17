@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\OITTTIIA\\Documents\\UTS\\2021\\TSU\\Ejemplo\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\parkinglot.appwebmvc.csproj",
+  "FilePath": "c:\\Users\\OITTTIIA\\Desktop\\ParkinglotProject\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\Parkinglot.AppWebMVC.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14389,7 +14389,7 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "parkinglot.appwebmvc",
+  "RootNamespace": "Parkinglot.AppWebMVC",
   "Documents": [],
   "SerializationFormat": "0.2"
 }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\OITTTIIA\\Documents\\UTS\\2021\\TSU\\Ejemplo\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\Parkinglot.AppWebMVC\\Parkinglot.AppWebMVC.csproj",
-      "projectName": "Parkinglot.AppWebMVC",
-      "projectPath": "C:\\Users\\OITTTIIA\\Documents\\UTS\\2021\\TSU\\Ejemplo\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\Parkinglot.AppWebMVC\\Parkinglot.AppWebMVC.csproj",
+      "projectUniqueName": "C:\\Users\\OITTTIIA\\Desktop\\ParkinglotProject\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\parkinglot.appwebmvc.csproj",
+      "projectName": "parkinglot.appwebmvc",
+      "projectPath": "C:\\Users\\OITTTIIA\\Desktop\\ParkinglotProject\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\parkinglot.appwebmvc.csproj",
       "packagesPath": "C:\\Users\\OITTTIIA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\OITTTIIA\\Documents\\UTS\\2021\\TSU\\Ejemplo\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\Parkinglot.AppWebMVC\\obj\\",
+      "outputPath": "C:\\Users\\OITTTIIA\\Desktop\\ParkinglotProject\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
