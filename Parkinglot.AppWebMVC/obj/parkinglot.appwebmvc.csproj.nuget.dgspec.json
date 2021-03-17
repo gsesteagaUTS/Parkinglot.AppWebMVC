@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\OITTTIIA\\Desktop\\ParkinglotProject\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\parkinglot.appwebmvc.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\OITTTIIA\\Desktop\\ParkinglotProject\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\parkinglot.appwebmvc.csproj",
         "packagesPath": "C:\\Users\\OITTTIIA\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\OITTTIIA\\Desktop\\ParkinglotProject\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\obj\\",
+=======
+    "c:\\Users\\OITTTIIA\\Documents\\UTS\\2021\\TSU\\Ejemplo\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\parkinglot.appwebmvc.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\OITTTIIA\\Documents\\UTS\\2021\\TSU\\Ejemplo\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\parkinglot.appwebmvc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\OITTTIIA\\Documents\\UTS\\2021\\TSU\\Ejemplo\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\parkinglot.appwebmvc.csproj",
+        "projectName": "parkinglot.appwebmvc",
+        "projectPath": "c:\\Users\\OITTTIIA\\Documents\\UTS\\2021\\TSU\\Ejemplo\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\parkinglot.appwebmvc.csproj",
+        "packagesPath": "C:\\Users\\OITTTIIA\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\OITTTIIA\\Documents\\UTS\\2021\\TSU\\Ejemplo\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\obj\\",
+>>>>>>> 4d89c1be51081d848d74b5ff968dd34bfe648009
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +56,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
