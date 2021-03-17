@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OITTTIIA\\Documents\\UTS\\2021\\TSU\\Ejemplo\\parkinglot.appwebmvc\\parkinglot.appwebmvc.csproj": {}
+    "C:\\Users\\OITTTIIA\\Documents\\UTS\\2021\\TSU\\Ejemplo\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\Parkinglot.AppWebMVC\\Parkinglot.AppWebMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OITTTIIA\\Documents\\UTS\\2021\\TSU\\Ejemplo\\parkinglot.appwebmvc\\parkinglot.appwebmvc.csproj": {
+    "C:\\Users\\OITTTIIA\\Documents\\UTS\\2021\\TSU\\Ejemplo\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\Parkinglot.AppWebMVC\\Parkinglot.AppWebMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OITTTIIA\\Documents\\UTS\\2021\\TSU\\Ejemplo\\parkinglot.appwebmvc\\parkinglot.appwebmvc.csproj",
-        "projectName": "parkinglot.appwebmvc",
-        "projectPath": "C:\\Users\\OITTTIIA\\Documents\\UTS\\2021\\TSU\\Ejemplo\\parkinglot.appwebmvc\\parkinglot.appwebmvc.csproj",
+        "projectUniqueName": "C:\\Users\\OITTTIIA\\Documents\\UTS\\2021\\TSU\\Ejemplo\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\Parkinglot.AppWebMVC\\Parkinglot.AppWebMVC.csproj",
+        "projectName": "Parkinglot.AppWebMVC",
+        "projectPath": "C:\\Users\\OITTTIIA\\Documents\\UTS\\2021\\TSU\\Ejemplo\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\Parkinglot.AppWebMVC\\Parkinglot.AppWebMVC.csproj",
         "packagesPath": "C:\\Users\\OITTTIIA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OITTTIIA\\Documents\\UTS\\2021\\TSU\\Ejemplo\\parkinglot.appwebmvc\\obj\\",
+        "outputPath": "C:\\Users\\OITTTIIA\\Documents\\UTS\\2021\\TSU\\Ejemplo\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\Parkinglot.AppWebMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
