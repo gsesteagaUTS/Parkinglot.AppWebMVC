@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using MongoDB.Driver;
 using Parkinglot.AppWebMVC.Domain;
+using MongoDB.Bson;
 
 namespace Parkinglot.AppWebMVC.Repositories
 {
@@ -30,10 +31,11 @@ namespace Parkinglot.AppWebMVC.Repositories
         }
         public AccessControl AddAccesControl(AccessControl accessControl)
         {
-            var user = usersCollection.Find(x=> x.Id == accessControl.UserId).FirstOrDefault();
-            if(user != null){
+            var user = usersCollection.Find(x => x.Id == accessControl.UserId).FirstOrDefault();
+            if (user != null)
+            {
                 user.AccessControls.Add(accessControl);
-                usersCollection.FindOneAndReplace(x=> x.Id == accessControl.UserId, user);
+                usersCollection.FindOneAndReplace(x => x.Id == accessControl.UserId, user);
 
             }
             throw new NotImplementedException();
@@ -41,17 +43,35 @@ namespace Parkinglot.AppWebMVC.Repositories
 
         public User AddUser(User user)
         {
-            throw new NotImplementedException();
+            usersCollection.InsertOne(user);
+            return user;
         }
 
         public List<AccessControl> FindAccesControlsByUser(string userId)
         {
-            throw new NotImplementedException();
+            var collection = usersCollection.Find(x => x.Id == userId);
+            var user = collection.FirstOrDefault();
+            return user.AccessControls;
         }
 
         public List<AccessControl> FindAllAccesControls()
         {
-            throw new NotImplementedException();
+            // Builders<User>.Filter.All(new ProjectionDefinitionBuilder<User>().Include(x=> x.AccessControls));
+            // var accessCotrols = usersCollection.Find(x=> true).Project(new ProjectionDefinitionBuilder<User>().Include(x=> x.AccessControls)).ToList();
+
+            var result = new List<AccessControl>();
+            // foreach (var ac in accessCotrols){
+            //     ac.GetElement()
+            // }
+            //     result.AddRange();
+
+            var docs = usersCollection.Find(x=> true).Project(x => x.AccessControls).ToList();
+            foreach (var ac in docs)
+            {
+                result.AddRange(ac);
+            }
+            return result;
+
         }
 
         public User FindUser(int controlNumber)
