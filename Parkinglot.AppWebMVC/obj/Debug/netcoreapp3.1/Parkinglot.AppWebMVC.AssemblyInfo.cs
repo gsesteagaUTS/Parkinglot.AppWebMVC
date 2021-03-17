@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Parkinglot.AppWebMVC")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("parkinglot.appwebmvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Parkinglot.AppWebMVC")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Parkinglot.AppWebMVC")]
+[assembly: System.Reflection.AssemblyProductAttribute("parkinglot.appwebmvc")]
+[assembly: System.Reflection.AssemblyTitleAttribute("parkinglot.appwebmvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
