@@ -1,5 +1,0 @@
-C:\Users\OITTTIIA\Desktop\ParkinglotProject\parkinglot.appwebmvc\Parkinglot.AppWebMVC\obj\Debug\netcoreapp3.1\parkinglot.appwebmvc.csprojAssemblyReference.cache
-C:\Users\OITTTIIA\Desktop\ParkinglotProject\parkinglot.appwebmvc\Parkinglot.AppWebMVC\obj\Debug\netcoreapp3.1\parkinglot.appwebmvc.AssemblyInfoInputs.cache
-C:\Users\OITTTIIA\Desktop\ParkinglotProject\parkinglot.appwebmvc\Parkinglot.AppWebMVC\obj\Debug\netcoreapp3.1\parkinglot.appwebmvc.AssemblyInfo.cs
-C:\Users\OITTTIIA\Desktop\ParkinglotProject\parkinglot.appwebmvc\Parkinglot.AppWebMVC\obj\Debug\netcoreapp3.1\parkinglot.appwebmvc.csproj.CoreCompileInputs.cache
-C:\Users\OITTTIIA\Desktop\ParkinglotProject\parkinglot.appwebmvc\Parkinglot.AppWebMVC\obj\Debug\netcoreapp3.1\parkinglot.appwebmvc.MvcApplicationPartsAssemblyInfo.cache

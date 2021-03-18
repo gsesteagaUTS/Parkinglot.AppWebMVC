@@ -1,26 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "tTEzTrmzCP9ruoI1HMcjony8IwMvjkxh0muKrVEOV6XJMG5SG4DTI2qF809/7joMacXX4K8F+UMGJ44eLXUFNQ==",
+  "dgSpecHash": "nOjkelrXdzj/7d7iFHNiolTv5jDvW+Yo0vYZH5g7GygKj0AhnfXhcPhqPBQLAp8x5KI9kMbnqFgQCI1gPLXspA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\OITTTIIA\\Desktop\\ParkinglotProject\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\parkinglot.appwebmvc.csproj",
+  "projectFilePath": "C:\\Users\\OITTTIIA\\Desktop\\ParkinglotProject\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\Parkinglot.AppWebMVC.csproj",
   "expectedPackageFiles": [],
-=======
-  "dgSpecHash": "TwC2nE7kC/AbRorZwQT3Rg0w3kB+yQKTOYKC2DZZJOUtQMJWPWauNQhjObjZN28mEkPWnqYXMd2YS4LDUAaiQQ==",
-  "success": true,
-  "projectFilePath": "c:\\Users\\OITTTIIA\\Documents\\UTS\\2021\\TSU\\Ejemplo\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\parkinglot.appwebmvc.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\OITTTIIA\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
-    "C:\\Users\\OITTTIIA\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
-    "C:\\Users\\OITTTIIA\\.nuget\\packages\\mongodb.bson\\2.12.0\\mongodb.bson.2.12.0.nupkg.sha512",
-    "C:\\Users\\OITTTIIA\\.nuget\\packages\\mongodb.driver\\2.12.0\\mongodb.driver.2.12.0.nupkg.sha512",
-    "C:\\Users\\OITTTIIA\\.nuget\\packages\\mongodb.driver.core\\2.12.0\\mongodb.driver.core.2.12.0.nupkg.sha512",
-    "C:\\Users\\OITTTIIA\\.nuget\\packages\\mongodb.libmongocrypt\\1.2.0\\mongodb.libmongocrypt.1.2.0.nupkg.sha512",
-    "C:\\Users\\OITTTIIA\\.nuget\\packages\\sharpcompress\\0.23.0\\sharpcompress.0.23.0.nupkg.sha512",
-    "C:\\Users\\OITTTIIA\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\OITTTIIA\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
-    "C:\\Users\\OITTTIIA\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512"
-  ],
->>>>>>> 4d89c1be51081d848d74b5ff968dd34bfe648009
   "logs": []
 }
