@@ -6,9 +6,9 @@ namespace Parkinglot.AppWebMVC.Domain
 {
     public class AccessControl
     {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; private set; }
+        // [BsonId]
+        // [BsonRepresentation(BsonType.ObjectId)]
+        // public string Id { get; private set; }
         public DateTime FullDate { get; private set; }
         [BsonIgnore]
         public User User { get; private set; }
@@ -20,7 +20,12 @@ namespace Parkinglot.AppWebMVC.Domain
         {
 
         }
-
+        public AccessControl(DateTime fullDate, string userId, AccessType accessType)
+        {
+            FullDate = fullDate;
+            UserId = userId;
+            AccessType = accessType;
+        }
         public AccessControl(DateTime fullDate, User user, string userId, AccessType accessType)
         {
             FullDate = fullDate;
@@ -29,14 +34,13 @@ namespace Parkinglot.AppWebMVC.Domain
             AccessType = accessType;
         }
 
-        public AccessControl(string id, DateTime fullDate, User user, string userId, AccessType accessType)
-        {
-            Id = id;
-            FullDate = fullDate;
-            User = user;
-            UserId = userId;
-            AccessType = accessType;
-        }
+        // public AccessControl(DateTime fullDate, User user, string userId, AccessType accessType)
+        // {
+        //     FullDate = fullDate;
+        //     User = user;
+        //     UserId = userId;
+        //     AccessType = accessType;
+        // }
     }
 }
 

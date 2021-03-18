@@ -56,27 +56,14 @@ namespace Parkinglot.AppWebMVC.Repositories
 
         public List<AccessControl> FindAllAccesControls()
         {
-            // Builders<User>.Filter.All(new ProjectionDefinitionBuilder<User>().Include(x=> x.AccessControls));
-            // var accessCotrols = usersCollection.Find(x=> true).Project(new ProjectionDefinitionBuilder<User>().Include(x=> x.AccessControls)).ToList();
-
-            var result = new List<AccessControl>();
-            // foreach (var ac in accessCotrols){
-            //     ac.GetElement()
-            // }
-            //     result.AddRange();
-
-            var docs = usersCollection.Find(x=> true).Project(x => x.AccessControls).ToList();
-            foreach (var ac in docs)
-            {
-                result.AddRange(ac);
-            }
-            return result;
-
+            throw new NotImplementedException();
+            
         }
 
         public User FindUser(int controlNumber)
         {
-            throw new NotImplementedException();
+            var user = usersCollection.Find(x=> x.ControlNumber == controlNumber).FirstOrDefault();
+            return user;
         }
     }
 }

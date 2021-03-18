@@ -17,12 +17,22 @@ namespace Parkinglot.AppWebMVC.Domain
     
         public User()
         {
+            AccessControls = new List<AccessControl>();
         }
 
         public User(string fullName, int controlNumber)
         {
             FullName = fullName;
             ControlNumber = controlNumber;
+            AccessControls = new List<AccessControl>();
+        }
+
+        public User(string id, string fullName, int controlNumber)
+        {
+            Id = id;
+            FullName = fullName;
+            ControlNumber = controlNumber;
+            AccessControls = new List<AccessControl>();
         }
 
         public User(string id, string fullName, int controlNumber, List<AccessControl> accessControls)
