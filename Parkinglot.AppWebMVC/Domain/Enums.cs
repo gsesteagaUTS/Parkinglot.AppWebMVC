@@ -2,7 +2,6 @@ using System;
 
 namespace Parkinglot.AppWebMVC.Domain
 {
-
     public enum AccessType
     {
         Entry = 0,

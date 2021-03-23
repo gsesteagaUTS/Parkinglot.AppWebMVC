@@ -62,14 +62,12 @@ namespace Parkinglot.AppWebMVC.Controllers
         }
 
         [HttpPost()]
-        public async Task<JsonResult> AddAccessControl(CreateNewUserCommand createNewUserCommand)
+        public async Task<JsonResult> AddAccessControl([FromBody] AddAccessControlCommand addAccessControlCommand)
         {
             try
             {
-                // var createUserCommand = new CreateNewUserCommand()
-                // { Id = "5ff922479b7b12712737d6af", FullName = "Gilberto Sesteaga Gonzalez", ControlNumber = 1374 };
-                await mediator.Send(createNewUserCommand);
-                //new CreateNewUserCommandHander().Handler(Command)
+
+                await mediator.Send(addAccessControlCommand);
                 return Json(new { Ok = true });
             }
             catch (Exception ex)

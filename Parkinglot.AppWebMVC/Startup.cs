@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
+using Parkinglot.AppWebMVC.RabbitMq;
 using Parkinglot.AppWebMVC.Repositories;
 
 namespace Parkinglot.AppWebMVC
@@ -27,10 +28,16 @@ namespace Parkinglot.AppWebMVC
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<MongoDatabaseSettings>(
-             Configuration.GetSection(nameof(MongoDatabaseSettings)));
+                Configuration.GetSection(nameof(MongoDatabaseSettings)));
+
+            services.Configure<RabbitMqSettings>(
+                Configuration.GetSection(nameof(RabbitMqSettings)));
 
             services.AddSingleton<IMongoDatabaseSettings>(sp =>
-              sp.GetRequiredService<IOptions<MongoDatabaseSettings>>().Value);
+                sp.GetRequiredService<IOptions<MongoDatabaseSettings>>().Value);
+            
+            services.AddSingleton<IRabbitMqSettings>(sp =>
+                sp.GetRequiredService<IOptions<RabbitMqSettings>>().Value);
 
             services.AddSingleton<IUserRepository, UserRepository>();
 
