@@ -29,7 +29,7 @@ namespace Parkinglot.AppWebMVC.Commands.UserCommands
             this.rabbitMqPublish = rabbitMqPublish;
         }
 
-        public async Task<Unit> Handle(AddAccessControlCommand request, CancellationToken cancellationToken)
+        public Task<Unit> Handle(AddAccessControlCommand request, CancellationToken cancellationToken)
         {
             // 1.- Guardar en BD
             Domain.AccessType accessType = Enum.Parse<Domain.AccessType>(request.AccessType.ToString());
@@ -44,7 +44,7 @@ namespace Parkinglot.AppWebMVC.Commands.UserCommands
                 throw new Exception("No se ha notificado a Arduino");
 
 
-            return new Unit();
+            return Task.FromResult<Unit>(new Unit());
         }
     }
 }
