@@ -50,3 +50,5 @@ C:\Users\OITTTIIA\Desktop\ParkinglotProject\parkinglot.appwebmvc\Parkinglot.AppW
 C:\Users\OITTTIIA\Desktop\ParkinglotProject\parkinglot.appwebmvc\Parkinglot.AppWebMVC\obj\Debug\netcoreapp3.1\parkinglot.appwebmvc.genruntimeconfig.cache
 C:\Users\OITTTIIA\Desktop\ParkinglotProject\parkinglot.appwebmvc\Parkinglot.AppWebMVC\bin\Debug\netcoreapp3.1\MediatR.dll
 C:\Users\OITTTIIA\Desktop\ParkinglotProject\parkinglot.appwebmvc\Parkinglot.AppWebMVC\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\OITTTIIA\Desktop\ParkinglotProject\parkinglot.appwebmvc\Parkinglot.AppWebMVC\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Users\OITTTIIA\Desktop\ParkinglotProject\parkinglot.appwebmvc\Parkinglot.AppWebMVC\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll

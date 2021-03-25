@@ -39,6 +39,7 @@ namespace Parkinglot.AppWebMVC
             services.AddSingleton<IRabbitMqSettings>(sp =>
                 sp.GetRequiredService<IOptions<RabbitMqSettings>>().Value);
 
+            services.AddSingleton<IRabbitMqPublish, RabbitMqPublish>();
             services.AddSingleton<IUserRepository, UserRepository>();
 
             services.AddMediatR(typeof(Startup));

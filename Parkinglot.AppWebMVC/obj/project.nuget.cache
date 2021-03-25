@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aYsPX8NPEksnLy6o83XYou1O/zVAUo9Yxo9hc8uH2SysCb0froZky9IRMwkJ046e2C94ilTyAV9QU5tRQxHnfw==",
+  "dgSpecHash": "hpL9iMo4ZoRba66u5mHng4aVVHFwg/T4aLESvLOv5PwPyWCaovjiskeHKFdHuZjI9HRBAjxOKbHzZ7VeZOjDSQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\OITTTIIA\\Desktop\\ParkinglotProject\\parkinglot.appwebmvc\\Parkinglot.AppWebMVC\\parkinglot.appwebmvc.csproj",
   "expectedPackageFiles": [
@@ -13,10 +13,13 @@
     "C:\\Users\\OITTTIIA\\.nuget\\packages\\mongodb.driver\\2.12.0\\mongodb.driver.2.12.0.nupkg.sha512",
     "C:\\Users\\OITTTIIA\\.nuget\\packages\\mongodb.driver.core\\2.12.0\\mongodb.driver.core.2.12.0.nupkg.sha512",
     "C:\\Users\\OITTTIIA\\.nuget\\packages\\mongodb.libmongocrypt\\1.2.0\\mongodb.libmongocrypt.1.2.0.nupkg.sha512",
+    "C:\\Users\\OITTTIIA\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
     "C:\\Users\\OITTTIIA\\.nuget\\packages\\sharpcompress\\0.23.0\\sharpcompress.0.23.0.nupkg.sha512",
     "C:\\Users\\OITTTIIA\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\OITTTIIA\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\OITTTIIA\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
-    "C:\\Users\\OITTTIIA\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512"
+    "C:\\Users\\OITTTIIA\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Users\\OITTTIIA\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }
