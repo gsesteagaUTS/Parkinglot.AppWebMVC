@@ -7,7 +7,7 @@ namespace Parkinglot.AppWebMVC.RabbitMq
 {
     public interface IRabbitMqPublish
     {
-        bool Publish<T>(T message);
+        bool Publish<T>(T message, string routingkey);
 
     }
 
@@ -22,7 +22,7 @@ namespace Parkinglot.AppWebMVC.RabbitMq
             this.rabbitMqSettings.QueueName+= "_"+Guid.NewGuid();
         }
 
-        public bool Publish<T>(T message)
+        public bool Publish<T>(T message, string routingkey)
         {
             try
             {
@@ -40,7 +40,7 @@ namespace Parkinglot.AppWebMVC.RabbitMq
                 //Declaramos la cola a la que nos conectaremos para enviar la información al RoutingKey amq.topic
                 channel.QueueDeclare(queueName, durable: true, exclusive: false, autoDelete: true, arguments: null);
                 var body = Encoding.UTF8.GetBytes(json);
-                channel.BasicPublish(exchange: "amq.topic", routingKey: "DataFromAspNetCore", basicProperties: null, body: body);
+                channel.BasicPublish(exchange: "amq.topic", routingKey: routingkey, basicProperties: null, body: body);
 
                 return true;
             }

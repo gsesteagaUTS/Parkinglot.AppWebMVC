@@ -37,8 +37,9 @@ namespace Parkinglot.AppWebMVC.Commands.UserCommands
             userRepository.AddAccesControl(accessControl);
 
             // 2.- MITOTEAR a RabbitMq
-            var message = new MessageClean("OpenServo");
-            var result = rabbitMqPublish.Publish<MessageClean>(message);
+            // var message = new MessageClean("OpenServo");
+            var message = new MoveServo(3, 90);
+            var result = rabbitMqPublish.Publish<MoveServo>(message, "DataFromAspNetCore");
 
             if(result==false)
                 throw new Exception("No se ha notificado a Arduino");
